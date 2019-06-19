@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6074596273031619430}
   - component: {fileID: 7416544520706179451}
   - component: {fileID: 1949008026}
+  - component: {fileID: 1000003540}
   m_Layer: 9
   m_Name: Pink Fret Note
   m_TagString: Untagged
@@ -102,6 +103,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e696d85718561544a88eaff0d488e9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitButton: 107
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1000003540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5146569230719130650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215aaed9644289a43b5f696de16fdb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hitButton: 107

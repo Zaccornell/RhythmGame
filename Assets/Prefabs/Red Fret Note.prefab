@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7593678395250751667}
   - component: {fileID: 7910585660077574395}
   - component: {fileID: 6896008062717613670}
+  - component: {fileID: 1199671639}
   m_Layer: 0
   m_Name: Red Fret Note
   m_TagString: Untagged
@@ -102,6 +103,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e696d85718561544a88eaff0d488e9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitButton: 100
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1199671639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062154183461723709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215aaed9644289a43b5f696de16fdb82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hitButton: 100
