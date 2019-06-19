@@ -9,11 +9,17 @@ public class TriggerNote : MonoBehaviour
     [SerializeField] KeyCode hitButton = KeyCode.Space;
     [SerializeField] UnityEvent OnHit;
 
+    //private void Update()
+    //{
+    //    Debug.Log("Updating...");
+    //}
+
     void OnTriggerStay(Collider col)
     {
+
         var hit = col.GetComponent<Note>();
 
-        Debug.Log("Note hit: " + hit);
+       
 
         if (hit is Note)
         {
@@ -22,7 +28,7 @@ public class TriggerNote : MonoBehaviour
                 //Successful hit!
                 OnHit.Invoke();
 
-                Debug.Log("HIT!");
+               
 
                 //Increase score
                 ScoreManager.instance.AddScore(10);
@@ -36,5 +42,7 @@ public class TriggerNote : MonoBehaviour
 
         }
     }
-    
+
+   
+
 }
